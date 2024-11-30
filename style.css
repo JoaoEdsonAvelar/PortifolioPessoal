@@ -80,7 +80,7 @@ header{
 }
 .clearfix{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
 }
 .form-container {
     max-width: 400px;
@@ -166,7 +166,7 @@ header{
   }
   
   .form-container .form-submit-btn:hover {
-    background-image: url(img/img_Fundo.jpg);
+    background-color: #222;
   }
   
   .form-container .link {
@@ -187,7 +187,7 @@ header{
     text-decoration: underline;
   }
   .footer {
-    background-color: #222;
+    background-image:url(img/img_Fundo.jpg) ;
     color: #fff;
     padding: 20px 0;
     text-align: center;
