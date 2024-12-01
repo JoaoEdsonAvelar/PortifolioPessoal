@@ -12,7 +12,7 @@
 }
 header{
     width: 100%;
-    background-color: #424147;
+    background-image: url(img/img_Fundo.jpg);
 }
 .logotipo{
    cursor: pointer;
@@ -61,7 +61,7 @@ header{
 }
 .drop-hover .drop{
     position: absolute;
-    background-color: #615f68;
+    background-image: url(img/img_Fundo.jpg);
     width: 100%;
     height: 0;
     overflow: hidden;
@@ -100,8 +100,8 @@ header{
     width: 100%;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
  }
   
   .form-container button:active {
@@ -215,3 +215,38 @@ header{
     transform: scale(1.2);
 }
   
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.card li strong {
+  color: #333;
+}
+
+.card li::before {
+  content: '';
+  margin-right: 8px;
+}
